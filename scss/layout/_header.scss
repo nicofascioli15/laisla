@@ -1,9 +1,9 @@
 header {
-    background-color: wheat;
+    background-color: $bgfijos;
     @include flex (row, space-between, center);
+    padding: 20px 0px 20px 0px;
     a {
         img{
-
         width: 125px;
         height: 125px;
     }}

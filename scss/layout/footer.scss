@@ -1,0 +1,7 @@
+footer {
+    background-color: $bgfijos;
+    @include flex (row, space-around,center);
+a{
+    color: $colorancla;
+}
+}
