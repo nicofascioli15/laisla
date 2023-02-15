@@ -1,4 +1,7 @@
-body {
+header {
   background-color: red; }
-  body header a img {
-    width: 30%; }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }

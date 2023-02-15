@@ -1,0 +1,8 @@
+header {
+    background-color: red;
+    nav {
+        ul {
+            @include flex(row, center, center);
+        }
+    }
+}
