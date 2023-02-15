@@ -1,8 +1,10 @@
 header {
-    background-color: red;
-    nav {
-        ul {
-            @include flex(row, center, center);
-        }
-    }
+    background-color: wheat;
+    @include flex (row, space-between, center);
+    a {
+        img{
+
+        width: 125px;
+        height: 125px;
+    }}
 }

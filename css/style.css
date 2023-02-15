@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 header {
-  background-color: red; }
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
+  background-color: wheat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  header a img {
+    width: 125px;
+    height: 125px; }
